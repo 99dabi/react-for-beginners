@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import Movie from "../components/Movie";
 
 //app.js 에서 :id로 넘김 값을 detail.js 에서 useParams를 사용해 받음
 function Detail() {
@@ -35,7 +34,7 @@ function Detail() {
       ) : (
         <div>
           <h2>{movie.title}</h2>
-          <img src={movie.large_cover_image} />
+          <img src={movie.large_cover_image} alt={movie.id} />
         </div>
       )}
     </div>

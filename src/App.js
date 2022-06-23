@@ -6,12 +6,10 @@ import Detail from "./roures/Detail";
 //BrowserRouter : localhost:3000
 //HashRouter : localhost:3000/#/
 
-{
-  /*router = url    를 찾는 역활 */
-}
-{
-  /* path의 url은 밑에 내용을 보여줄꺼야 */
-}
+/*router = url    를 찾는 역활 */
+
+/* path의 url은 밑에 내용을 보여줄꺼야 */
+
 function App() {
   return (
     <Router>
